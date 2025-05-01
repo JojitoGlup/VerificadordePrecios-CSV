@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de productos CSV</title>
+    <link rel="stylesheet" href="lib/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="img/unison_logo.png" alt="Logo UNISON" class="img_nav">
+        <img src="img/batman.jpg" alt="BATMAN" class="img_nav">
+    </nav>
+
+    <div class="option">
+        <label class="switch">
+            <input type="checkbox" id="temaToggle">
+            <span class="slider round"></span>
+        </label>
+        <h5 id="idTema">Cambiar Tema</h5>
+    </div>
+    
+    <div class="option">
+        <label class="switch">
+            <input type="checkbox" id="idiomaToggle">
+            <span class="slider round"></span>
+        </label>
+        <h5 id="idIdioma">Cambiar Idioma</h5>
+    </div>
+    
+    
+    <div class="main-content">
+        <img src="img/barcode.gif" alt="Imagen" id="image">
+        
+        <div class="details">
+            
+        </div>
+        
+        <div class="date-time" id="fechaHora"></div>
+    </div>
+    
+    <script src="lib/sweetalert2.min.js"></script>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="js/fechaHora.js"></script>
+    <script src="js/leerCSV.js"></script>
+    <script src="js/cargarProducto.js"></script>
+    <script src="js/cambiarTema.js"></script>
+    <script src="js/cambiarIdioma.js"></script>
+</body>
+</html>

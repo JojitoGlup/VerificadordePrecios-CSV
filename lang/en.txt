@@ -1,0 +1,2 @@
+cambiarTema=Change Theme
+cambiarIdioma=Change Language

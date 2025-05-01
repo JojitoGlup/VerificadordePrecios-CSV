@@ -1,0 +1,2 @@
+cambiarTema=Cambiar Tema
+cambiarIdioma=Cambiar Idioma
