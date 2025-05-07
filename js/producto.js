@@ -1,0 +1,22 @@
+const array_prods = [
+    ["1", "Palomitas", "23.00", "palomitas.jpg"],
+    ["2", "Refresco", "18.00", "refresco.jpeg"],
+    ["3", "Nachos", "35.00", "nachos.jpeg"],
+    ["4", "HotDog", "30.00", "hotdog.jpg"],
+    ["5", "Pizza", "50.00", "pizza.jpg"],
+    ["6", "Helado", "25.00", "helado.jpg"],
+    ["7", "Chocolate", "20.00", "chocolate.jpeg"],
+    ["8", "Galletas", "15.00", "galletas.jpeg"],
+    ["9", "PapasFritas", "28.00", "papasfritas.jpeg"],
+    ["10", "Dulces", "10.00", "dulces.jpeg"],
+    ["11", "Pan", "12.00", "pan.png"],
+    ["12", "Jugo", "14.00", "jugo.png"],
+    ["13", "Leche", "16.00", "leche.png"],
+    ["14", "Queso", "20.00", "queso.png"],
+    ["15", "Huevo", "18.00", "huevo.png"],
+    ["16", "Arroz", "17.00", "arroz.png"],
+    ["17", "Frijol", "15.00", "frijol.png"],
+    ["18", "Sal", "10.00", "sal.png"],
+    ["19", "Azúcar", "11.00", "azucar.png"],
+    ["20", "Avena", "13.00", "avena.png"]
+];

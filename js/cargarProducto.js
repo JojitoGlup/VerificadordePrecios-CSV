@@ -5,7 +5,7 @@ document.addEventListener("keydown", async (event) => {
         code += event.key;
     }
     else if (event.key === "Enter") {
-        if(array_prods.some(row => row[0] === code)){
+        if(array_prods.find(row => row[0] === code)){
             let img = array_prods[code-1][3];
             $('#image').attr('src',`img/${img}`);
             const detailsProduct = `
